@@ -1,9 +1,12 @@
 <script lang="ts">
-  import CsvFileInput from "./components/CSVFileInput.svelte";
+  import CSVFileInput from "./components/CSVFileInput.svelte";
+  import DBColumnHandler from "./components/DBHandler/DBColumnHandler.svelte";
 </script>
 
 <main>
-  <CsvFileInput />
+  <CSVFileInput />
+  <br />
+  <DBColumnHandler />
 </main>
 
 <style>
